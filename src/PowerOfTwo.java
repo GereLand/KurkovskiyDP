@@ -30,6 +30,7 @@ public class PowerOfTwo {
         int number7 = scan.nextInt();
         System.out.print("Введите восьмую цифру: ");
         int number8 = scan.nextInt();
+        System.out.println("Ваше введённое число: ");
         System.out.print(number1);
         System.out.print(number2);
         System.out.print(number3);
