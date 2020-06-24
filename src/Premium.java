@@ -1,16 +1,7 @@
+import java.util.Scanner;
+
 public class Premium {
-    public static void main(String[] args) {
-
-
-
-
-
-
-
-    }
-}
-
-/*
+    /**
     Задание 6
     Используя IntelliJ IDEA, создайте класс Premium.
     Напишите программу расчета начисления премий сотрудникам. Премии рассчитываются согласно выслуге лет.
@@ -22,3 +13,24 @@ public class Premium {
     Если выслуга от 25 лет (включительно) и более, премия составляет 50% от заработной платы.
     Результаты расчета, выведите на экран.
  */
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Введите размер заработной платы: ");
+        int zp = scan.nextInt();
+        System.out.print("Введите выслугу лет: ");
+        int times = scan.nextInt();
+        if (times < 5) {
+            System.out.print(zp * 110 / 100);
+        } if (times >= 5 && times < 10) {
+            System.out.print(zp * 115 / 100);
+        } if (times >= 10 && times < 15) {
+            System.out.print(zp * 125 / 100);
+        } if (times >= 15 && times < 20) {
+            System.out.print(zp * 135 / 100);
+        } if (times >= 20 && times < 25) {
+            System.out.print(zp * 145 / 100);
+        } if (times >= 25) {
+            System.out.print(zp * 150 / 100);
+        }
+    }
+}
