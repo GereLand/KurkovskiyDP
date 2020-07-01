@@ -1,3 +1,5 @@
+package Homework2;
+
 public class Main {
     /**
      * Задание 4

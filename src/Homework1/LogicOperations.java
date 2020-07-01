@@ -1,7 +1,9 @@
+package Homework1;
+
 public class LogicOperations {
     /**
 Задание 5
-Используя IntelliJ IDEA, создайте класс LogicOperations.
+Используя IntelliJ IDEA, создайте класс Homework1.LogicOperations.
 Имеется 3 переменные типа int x = 5, y = 10, и z = 15;
 Выполните и рассчитайте результат следующих операций для этих переменных:
  */
