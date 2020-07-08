@@ -43,10 +43,10 @@ public class Bank {
             if (balance != 0) {
                 sum1(balance);
             } else {
-                System.out.println("\n" + "Поздравляем, долг по кридиту полностью погашен!");
+                System.out.println("\n" + "Поздравляем, долг по кредиту полностью погашен!");
             }
         } else {
-            System.out.println("Сумма оплаты меньше суммы обязатеной ежемесячной оплаты!");
+            System.out.println("Сумма оплаты меньше обязательной суммы ежемесячной оплаты!");
             sum1(balance);
         }
         return balance;
