@@ -70,18 +70,34 @@ public class CustomerArray {
     static int odd(int[] mas) {
         System.out.print("Нечётные значения массива: ");
         int num = mas[0];
-        if (mas[0] % 2 == 0)
-            System.out.print("");
-        else
+        if (mas[0] % 2 != 0) {
             System.out.print(mas[0] + " ");
+        }
 
         for (int i = 1; i < mas.length; i++) {
-            if (mas[i] % 2 == 0) {
-                System.out.print("");
-            } else {
+            if (mas[i] % 2 != 0) {
                 System.out.print(mas[i] + " ");
             }
         }
         return num;
     }
+
+//    static int odd(int[] mas) {
+//        System.out.print("Нечётные значения массива: ");
+//        int num = mas[0];
+//        if (mas[0] % 2 == 0)
+//            System.out.print("");
+//        else
+//            System.out.print(mas[0] + " ");
+//
+//
+//        for (int i = 1; i < mas.length; i++) {
+//            if (mas[i] % 2 == 0) {
+//                System.out.print("");
+//            } else {
+//                System.out.print(mas[i] + " ");
+//            }
+//        }
+//        return num;
+//    }
 }
