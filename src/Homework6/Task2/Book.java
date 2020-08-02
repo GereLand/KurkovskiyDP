@@ -12,6 +12,8 @@ public class Book {
      * имя автора и Содержание.
      */
     public static void main(String[] args) {
-
+        Title.show();
+        Author.show();
+        Content.show();
     }
 }
