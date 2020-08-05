@@ -8,7 +8,8 @@ public class Computer {
      * Далее руками создать 5 экземпляров этого класса и записать в компьютер
      * (используя loop)
      */
+    // Пока не до конца понял задание, уточню на занятии.
     public static void main(String[] args) {
-
+        String[] Computers = new String[5];
     }
 }
