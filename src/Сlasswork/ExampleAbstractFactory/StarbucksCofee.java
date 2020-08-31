@@ -1,4 +1,4 @@
-package Сlasswork.Work260820.ExampleAbstractFactory;
+package Сlasswork.ExampleAbstractFactory;
 
 public class StarbucksCofee extends AbstractCofee{
     @Override

@@ -1,4 +1,4 @@
-package Сlasswork.Work260820.ExampleAbstractFactory;
+package Сlasswork.ExampleAbstractFactory;
 
 public abstract class AbstractBattle {
     public abstract void interract(AbstractCofee cofee);
